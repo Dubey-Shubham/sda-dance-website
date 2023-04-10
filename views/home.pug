@@ -1,0 +1,51 @@
+extends base
+
+block scripts 
+   script(src=' ../static/index.js')
+
+block style 
+    style 
+        include ../static/style.css
+
+block content
+     
+
+    section#introSection 
+     div Shubham Dubey's Dance Lessons 
+     div.small best dance classes in entire world 
+
+    section#missionSection 
+     h2 Mission Section
+
+     div.card
+      h3 Ballet Lessons
+       div.card-box
+        div.card-img 
+         img(src="static/ballet.jpg")
+        div.card-content
+         p ballet is one of the classiest dance form
+
+     div.card
+      h3 Contemporary
+       div.card-box
+        div.card-img 
+         img(src="static/dance2.jpg")
+        div.card-content
+         p Contemporary is one of the classiest dance form
+
+     div.card
+      h3 Jazz Style
+       div.card-box
+        div.card-img 
+         img(src="static/dance 11.png")
+        div.card-content
+         p Jazz is one of the classiest dance form
+  
+    section#sponsorsSection
+     h2 Section for sponsors 
+     div.sponsors
+      img(src="static/apple.jpeg", alt="Apple", class="spImage" )
+      img(src="static/google.jpg", alt="Apple", class="spImage")
+      img(src="static/facebook.png", alt="Apple", class="spImage")
+      img(src="static/paytm.jpg", alt="Apple", class="spImage")
+      img(src="static/netflix.png", alt="Apple", class="spImage")

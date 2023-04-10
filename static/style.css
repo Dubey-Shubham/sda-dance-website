@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Kdam+Thmor+Pro&family=Open+Sans:wght@300&family=Roboto:wght@300&family=Titillium+Web&display=swap');
+*{
+    margin: 0;                                    /*by-default values */
+    padding: 0;
+    box-sizing: border-box;
+}
+#logo{
+    display: flex;
+    color: rgb(12, 1, 1);
+    align-items: center;
+    margin: 0 14px;
+    font-size: 28px;
+    margin-right: 40px;
+}
+#logo img{
+    height: 42px;
+    filter: invert(2);
+}
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.card-img{
+    height: 101px;
+    padding: 1px 1px;
+    margin: 5px 5px;
+}
+.card-img img{
+    height: 100px; 
+}
+.card-content p{
+    font-size: 10px;
+}
+#navbar{
+    background-color: #d43b3b;
+    font-family: 'Roboto', sans-serif;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: center; */
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+    padding: 13px 20px;
+    font-weight: bold;
+}
+#navbar li a:hover{
+    color: black;  
+}
+
+#introSection{
+    padding-bottom: 12px;
+    color: white;                          /*isme dale gaye har element ko black color mil jayega*/
+    display: flex;
+    flex-direction: column;                  /*sabhi element coloumn k form me ayenge*/
+    justify-content: center;
+    font-family: 'ZCOOL QingKe HuangYou';
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("/static/dance.jpg") ;      /*yahan center bole to center me ana chahiye pic aur cover poora area krna chahiye repeat bhi nahi hona chahiye*/
+    height: 425px;                       /*kyukii bg k liye hamne before pseudo selector ka istemaal nhi kiya so we cant put it behind vaigation bar*/
+    background-color: red;
+    opacity: .9;
+}
+#introSection div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+#missionSection{
+    height: 326px;; 
+    width: 67%;                           /*width 67% section ki baki side me margin*/
+    margin: auto;                          /*margin auto so that dono side se same margin ho*/
+}
+#missionSection h2{
+    font-size: 36px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;                       /*center me a jayega*/
+    padding-top: 12px;
+}
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 11px;
+    height: 209px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0px 12px;
+    margin-top: 24px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#sponsorsSection{
+    height: 300px;
+    background-color: #fbd6d6c7;
+}
+#sponsorsSection h2{
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding-top: 12px;
+    font-size: 36px;
+}
+.sponsors{
+    height: 120px;
+    max-width: 1000px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spImage{
+    height: 80px;
+    margin: 40px;    
+}
+
+#footer{
+    background-color: rgb(9, 8, 8);
+    height: 100px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
